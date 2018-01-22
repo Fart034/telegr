@@ -1,1 +1,746 @@
+/* Style for "Монтажная" */
+*{
+    font-family: "Blogger Sans-Bold Italic.otf";
+}
+.layer-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 5885px;
+    background: #f9f5fa;
+  }
+  /* Style for "первый экр" */
+.layerfirst {
+    background-image: url(./img/first-screen-bg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 894px;
+  }
+  /* Style for "header" */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 100px;
+  }
+  /* Style for "logo" */
+.logo {
+    background-image: url(../img/logo.png);
+    position: absolute;
+    top: 24px;
+    left: 154px;
+    width: 201px;
+    height: 55px;
+  }
+  /* Style for "меню" */
+.menubar {
+    position: absolute;
+    top: 41px;
+    left: 448px;
+    width: 513px;
+    height: 18px;
+  }
+  /* Style for "О продукци" */
+.menu1 {
+    position: absolute;
+    top: 42px;
+    left: 448px;
+    width: 106px;
+    height: 17px;
+    color: #ffffff;
+    font-family: "Blogger Sans-Bold Italic.otf";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* Text style for "О,  продук" */
+  .menu1 {
+    letter-spacing: 0.45px;
+  }
+  /* Style for "Подарок" */
+.menu2 {
+    position: absolute;
+    top: 42px;
+    left: 593px;
+    width: 70px;
+    height: 17px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* Text style for "П, одарок" */
+  .menu2 {
+    letter-spacing: 0.45px;
+  }
+  /* Style for "Каталог" */
+.menu3 {
+    position: absolute;
+    top: 42px;
+    left: 703px;
+    width: 62px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* Text style for "К, аталог" */
+  .menu3 {
+    letter-spacing: 0.45px;
+  }
+  /* Style for "Оформление" */
+.menu4 {
+    position: absolute;
+    top: 42px;
+    left: 797px;
+    width: 164px;
+    height: 17px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* Text style for "О, формлен" */
+  .menu4 {
+    letter-spacing: 0.09px;
+  }
+  /* Style for "menu_bg" */
+
+    
+  
+  ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+  a {text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:0px; /*Добавляем отступ у пунктов меню*/
+  }
+  /* Style for "call_group" */
+.call-group {
+    position: absolute;
+    top: 38px;
+    left: 1066px;
+    width: 208px;
+    height: 24px;
+  }
+  /* Style for "Call_icon" */
+.call-icon {
+    position: absolute;
+    top: 38px;
+    left: 1066px;
+    width: 24px;
+    height: 24px;
+  }
+  /* Style for "+7 (342) 2" */
+.layer-7 {
+    position: absolute;
+    top: 40px;
+    left: 1096px;
+    width: 178px;
+    height: 19px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  /* Text style for "+7 (342) 2" */
+  .layer-7 {
+    letter-spacing: 0.55px;
+  }
+  /* Style for "first_scre" */
+.first-screen-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 878px;
+  }
+  /* Style for "2" */
+.layer-2 {
+    position: absolute;
+    top: 400px;
+    left: 360px;
+    width: 602px;
+    height: 430px;
+  }
+  /* Style for "Гарантия1" */
+.layer-gar {
+    position: absolute;
+    top: 554px;
+    left: 640px;
+    width: 206px;
+    height: 152px;
+  }
+  /* Style for "h1" */
+.h- {
+    position: absolute;
+    top: 210px;
+    left: 179px;
+    width: 1081px;
+    height: 165px;
+  }
+  /* Style for "Получить ж" */
+.h-1 {
+    position: absolute;
+    top: 130px;
+    left: 179px;
+    width: 1081px;
+    height: 165px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+  }
+  /* Text style for "Получить ж" */
+  .h- {
+    letter-spacing: 1.2px;
+  }
+  /* Style for "с водным к" */
+.h-2 {
+    position: absolute;
+    top: 360px;
+    left: 231px;
+    width: 974px;
+    height: 29px;
+    color: #ffffff;
+    font-family: "Blogger Sans";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  /* Text style for "с,  водным" */
+  .h-2 {
+    letter-spacing: 1px;
+  }
+  /* Style for "box" */
+.box {
+    position: absolute;
+    top: 1014px;
+    left: 150px;
+    width: 1140px;
+    height: 875px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border-radius: 5px;
+    border: 7px solid #ba007c;
+  }
+  /* Style for "Что собой" */
+.h-3 {
+    position: absolute;
+    top: 1112px;
+    left: 277px;
+    width: 861px;
+    height: 34px;
+    color: #235fb9;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Text style for "Ч, то собо" */
+  .layer {
+    letter-spacing: 0.9px;
+  }
+  /* Style for "Это эксклю" */
+/* Style for "Это эксклю" */
+.layer100 {
+    position: absolute;
+    top: 1183px;
+    left: 277px;
+    width: 882px;
+    height: 506px;
+    color: #02122f;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /* Text style for "Это эксклю" */
+  .layer-50 {
+    letter-spacing: 0.5px;
+    line-height: 26px;
+  }
+  /* Text style for "" */
+  .layer {
+    color: #4c4c4c;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+  /* Text style for "Употребляя" */
+  .layer {
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+  /* Text style for "еаэс  n ru" */
+  .n-ru-ru {
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+  /* Style for "button1" */
+.button-1 {
+    position: absolute;
+    top: 1734px;
+    left: 274px;
+    width: 273px;
+    height: 63px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border-radius: 5px;
+    background-color: #235fb9;
+    color: #fff;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    
+  }
+  /* Style for "ионы" */
+.kartinka {
+    position: absolute;
+    top: 1831px;
+    left: 192px;
+    width: 299px;
+    height: 330px;
+  }
+  /* Style for "о продукци" */
+.layer500 {
+    position: absolute;
+    top: 1014px;
+    left: 150px;
+    width: 1140px;
+    height: 1147px;
+  }
+  /* Style for "bg_pic" */
+.bg-pic {
+    position: absolute;
+    top: 2016px;
+    left: 0;
+    width: 1440px;
+    height: 974px;
+  }
+  /* Style for "ионы" */
+.shar {
+    position: absolute;
+    top: 1831px;
+    left: 192px;
+    width: 299px;
+    height: 330px;
+  }
+  /* Style for "text_bg" */
+.text-bg {
+    position: absolute;
+    top: 2278px;
+    left: 203px;
+    width: 1043px;
+    height: 641px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    opacity: 0.72;
+  }
+  /* Style for "По желанию" */
+.layerg {
+    position: absolute;
+    top: 2336px;
+    left: 277px;
+    width: 756px;
+    height: 53px;
+    color: #235fb9;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+  }
+  /* Text style for "П, о желан" */
+  .layerg {
+    letter-spacing: 0.5px;
+  }
+  /* Style for "Это уникал" */
+.layerch {
+    position: absolute;
+    top: 2415px;
+    left: 275px;
+    width: 935px;
+    height: 355px;
+    color: #02122f;
+    font-family: "Myriad Pro";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Text style for "Это уникал" */
+  .layerch {
+    letter-spacing: 0.5px;
+  }
+  /* Text style for "Чаванпраш" */
+  .layerch1 {
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+  }
+  /* Style for "button2" */
+.button-2 {
+    position: absolute;
+    top: 2809px;
+    left: 274px;
+    width: 273px;
+    height: 63px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border-radius: 5px;
+    background-color: #235fb9;
+    color: #fff;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Style for "box" */
+.box1 {
+    position: absolute;
+    top: 3069px;
+    left: 148px;
+    width: 554px;
+    height: 909px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border-radius: 5px;
+    border: 7px solid #ba007c;
+  }
+  /* Style for "box" */
+.box2 {
+    position: absolute;
+    top: 3070px;
+    left: 732px;
+    width: 553px;
+    height: 908px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border-radius: 5px;
+    border: 7px solid #ba007c;
+  }
+  /* Style for "box" */
+.box3 {
+    position: absolute;
+    top: 4013px;
+    left: 147px;
+    width: 1140px;
+    height: 620px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border-radius: 5px;
+    border: 7px solid #ba007c;
+  }
+  /* Style for "Прямоуголь" */
+.layer-8 {
+    position: absolute;
+    top: 4854px;
+    left: 150px;
+    width: 1140px;
+    height: 388px;
+    box-shadow: 2px 3px 3px rgba(20, 21, 24, 0.41);
+    border: 7px solid #ba007c;
+  }
+  /* Style for "footer_bg" */
+.footer-bg {
+    position: absolute;
+    top: 5473px;
+    left: 0;
+    width: 1440px;
+    height: 412px;
+    background-color: #235fb9;
+  }
+  /* Style for "down_logo" */
+.down-logo {
+    position: absolute;
+    top: 5525px;
+    left: 154px;
+    width: 189px;
+    height: 53px;
+  }
+  /* Style for "checkbox1" */
+.checkbox-1 {
+    position: absolute;
+    top: 3664px;
+    left: 772px;
+    width: 28px;
+    height: 25px;
+    border: 1px solid #235fb9;
+    background-color:;
+  }
+/* Style for "Наш адрес:" */
+.layer-614015 {
+    position: absolute;
+    top: 5526px;
+    left: 655px;
+    width: 494px;
+    height: 162px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /* Text style for "Н, аш адре" */
+  .e-mail-g {
+    letter-spacing: 0.5px;
+    line-height: 36px;
+  }
+  /* Text style for "инн, кпп" */
+  .class123 {
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  /* Text style for "" */
+  .lay32 {
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+  /* Style for "Мы проконс" */
+.layer43 {
+    position: absolute;
+    top: 5719px;
+    left: 655px;
+    width: 461px;
+    height: 39px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  /* Text style for "Мы проконс" */
+  .layer43 {
+    letter-spacing: 0.6px;
+  }
+  /* Style for "Эксклюзивн" */
+.layer54 {
+    position: absolute;
+    top: 5590px;
+    left: 157px;
+    width: 388px;
+    height: 76px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  /* Text style for "Эксклюзивн" */
+  .layer {
+    letter-spacing: 0.4px;
+  }
+  /* Style for "2017. Все" */
+.layer-2017 {
+    position: absolute;
+    top: 5824px;
+    left: 185px;
+    width: 178px;
+    height: 13px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* Text style for "2, 017. Вс" */
+  .layer-2017 {
+    letter-spacing: 0.6px;
+  }
+  /* Style for "copyright_" */
+.copyright-icon {
+    position: absolute;
+    top: 5836px;
+    left: 163px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/copyright-icon.png);
+  }
+  /* Style for "up_icon" */
+.up-icon {
+    position: absolute;
+    top: 5827px;
+    left: 1237px;
+    width: 41px;
+    height: 22px;
+  }
+  /* Style for "Наверх" */
+.layerup {
+    position: absolute;
+    top: 5856px;
+    left: 1235px;
+    width: 47px;
+    height: 13px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  /* Text style for "Наверх" */
+  .layer {
+    letter-spacing: 0.7px;
+  }
+  /* Style for "down_line" */
+.down-line {
+    position: absolute;
+    top: 5803px;
+    left: 150px;
+    width: 1140px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  /* Style for "Оформить з" */
+.layero {
+    position: absolute;
+    top: 4908px;
+    left: 378px;
+    width: 684px;
+    height: 29px;
+    color: #235fb9;
+    font-family: "Myriad Pro";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  /* Text style for "Оформить з" */
+  .layer {
+    letter-spacing: 0.75px;
+  }
+  /* Style for "шаги" */
+.shagi {
+    position: absolute;
+    top: 5007px;
+    left: 181px;
+    width: 1090px;
+    height: 425px;
+  }
+  /* Style for "2" */
+.shagi2 {
+    position: absolute;
+    top: 5060px;
+    left: 519px;
+    width: 64px;
+    height: 100px;
+    opacity: 0.2;
+    color: #4c4c4c;
+    font-family: "Myriad Pro";
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Text style for "2," */
+  .shagi2 {
+    letter-spacing: 3.75px;
+  }
+  /* Style for "1" */
+.shagi1 {
+    position: absolute;
+    top: 5060px;
+    left: 181px;
+    width: 34px;
+    height: 98px;
+    opacity: 0.2;
+    color: #4c4c4c;
+    font-family: "Myriad Pro";
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Text style for "1," */
+  .shagi1 {
+    letter-spacing: 3.75px;
+  }
+  /* Style for "3" */
+.shagi3 {
+    position: absolute;
+    top: 5060px;
+    left: 913px;
+    width: 62px;
+    height: 102px;
+    opacity: 0.2;
+    color: #4c4c4c;
+    font-family: "Myriad Pro";
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Text style for "3," */
+  .shagi3 {
+    letter-spacing: 3.75px;
+  }
+/* Style for "Выбираете" */
+.sh1 {
+    position: absolute;
+    top: 5046px;
+    left: 222px;
+    width: 235px;
+    height: 76px;
+    color: #02122f;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  /* Text style for "Выбираете" */
+  .sh1 {
+    letter-spacing: 0.4px;
+  }
+  /* Style for "Ваш заказ" */
+.sh2 {
+    position: absolute;
+    top: 5046px;
+    left: 540px;
+    width: 247px;
+    height: 66px;
+    color: #02122f;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* Text style for "Ваш заказ" */
+  .sh2 {
+    letter-spacing: 0.4px;
+  }
+  /* Style for "Продукт до" */
+.sh3 {
+    position: absolute;
+    top: 5046px;
+    left: 931px;
+    width: 340px;
+    height: 103px;
+    color: #02122f;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  /* Text style for "Продукт до" */
+  .sh3 {
+    letter-spacing: 0.4px;
+  }
+  /* Style for "Фигура 4" */
+.st1 {
+    position: absolute;
+    top: 5070px;
+    left: 463px;
+    width: 39px;
+    height: 36px;
+  }
+  /* Style for "Фигура 4 к" */
+.st2 {
+    position: absolute;
+    top: 5070px;
+    left: 857px;
+    width: 35px;
+    height: 36px;
+  }
 
